@@ -1,0 +1,50 @@
+.maindiv {
+  display: flex;
+}
+.leftdiv {
+  height: 100vh;     
+  width: 60vw; 
+  border: 2px solid rgb(206, 175, 2);
+  box-shadow: 0px 4px 8px rgb(250, 248, 248);
+  border-radius: 25px;
+  text-align: center;
+  position: fixed;
+  background-color: black;
+  color: rgb(206, 175, 2);
+}
+.leftdiv hr {
+  color: rgb(206, 175, 2);
+}
+.leftdiv p {
+  font-size: 23px;
+}
+.name {
+ font-size: 50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rightdiv h2 {
+ font-size: 30px;
+}
+.rightdiv ul {
+  font-size: 20px;
+}
+.rightdiv {
+  padding-left: 940px;
+}
+.smalldivs {
+  border: 1px solid white;
+  box-shadow: 0px 4px 8px rgb(248, 247, 247);
+  border-radius: 10px;
+  height: 300px;
+  color: black;
+  background-color: rgb(206, 175, 2);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.smalldivs li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body {
+  background-color: black;
+}
