@@ -10,7 +10,7 @@ function App() {
           <h1 className="name">R VIGNESH</h1>
           <hr />
           <p>
-            A dusky Indian guy, unsure about his future after school, ended up choosing Mechanical Engineering due to lack of direction at the time. After completing his degree, he discovered a genuine interest in the IT field and started learning programming languages on his own. Now, he's actively building his skills and waiting for the right opportunity to kick-start his career in tech.
+            An Indian guy, unsure about his future after school, ended up choosing Mechanical Engineering due to lack of direction at the time. After completing his degree, he discovered a genuine interest in the IT field and started learning programming languages on his own. Now, he's actively building his skills and waiting for the right opportunity to kick-start his career in tech.
           </p>
           <p>
             "Aspiring techie with a background in mechanical engineering, now fully switched gears to the IT world. Passionate about coding, self-taught in key programming languages, and constantly leveling up through projects and online learning. Actively seeking opportunities to break into the tech industry and bring fresh energy, adaptability, and a growth mindset to the table."
