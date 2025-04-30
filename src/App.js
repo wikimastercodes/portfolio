@@ -1,32 +1,34 @@
+// App.js
 import React from 'react';
-import './App.css'; 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
-    <div className="maindiv">
+    <div className="maindiv container-fluid">
       <nav>
-        <div className="leftdiv">
-          <h1 className="name">R VIGNESH</h1>
+        <div className="leftdiv shadow-lg">
+          <h1 className="name display-4 text-white">R VIGNESH</h1>
           <hr />
-          <p>
-            An Indian guy, unsure about his future after school, ended up choosing Mechanical Engineering due to lack of direction at the time. After completing his degree, he discovered a genuine interest in the IT field and started learning programming languages on his own. Now, he's actively building his skills and waiting for the right opportunity to kick-start his career in tech.
-          </p>
-          <p>
-            "Aspiring techie with a background in mechanical engineering, now fully switched gears to the IT world. Passionate about coding, self-taught in key programming languages, and constantly leveling up through projects and online learning. Actively seeking opportunities to break into the tech industry and bring fresh energy, adaptability, and a growth mindset to the table."
-          </p>
-          <p>
-            "Frontend enthusiast with a creative mindset and a solid grip on HTML, CSS, JavaScript, and modern frameworks. Passionate about building sleek, responsive UIs and turning designs into smooth, interactive web experiences. Constantly learning, experimenting, and staying in sync with the latest trends in web dev. Ready to bring fresh vibes and clean code to a dynamic frontend team."
-          </p>
+          <p className="text-light">
+  A Mechanical Engineering graduate who discovered a strong interest in software development after completing his degree. Motivated by a passion for technology, I began self-learning programming languages and web development through online resources and hands-on projects.
+</p>
+<p className="text-light">
+  A career-changer with a solid engineering foundation, now fully committed to the IT domain. I have independently built a strong understanding of programming concepts and modern web technologies. Eager to apply this knowledge in a dynamic tech environment that values adaptability, problem-solving, and continuous learning.
+</p>
+<p className="text-light">
+  Frontend developer with a keen eye for detail and experience in HTML, CSS, JavaScript, React.js, and responsive design. Passionate about crafting clean, user-centric interfaces and staying updated with the latest trends in frontend development. Actively building projects to sharpen skills and seeking opportunities to contribute to innovative teams.
+</p>
+
           <hr />
         </div>
       </nav>
 
-      <div className="rightdiv">
+      <div className="rightdiv d-flex flex-column align-items-center gap-4">
         <div className="smalldivs">
-          <h2>Personal Details</h2>
+          <h2 className="h4 text-white">Personal Details</h2>
           <hr />
-          <ul>
+          <ul className="list-unstyled">
             <li>Name: R Vignesh</li>
             <li>Location: Thanjavur, India</li>
             <li>Email: rcva1997@gmail.com</li>
@@ -35,9 +37,9 @@ function App() {
         </div>
 
         <div className="smalldivs">
-          <h2>Skills</h2>
+          <h2 className="h4 text-white">Skills</h2>
           <hr />
-          <ul>
+          <ul className="list-unstyled">
             <li>HTML, CSS, JavaScript</li>
             <li>React.js & Bootstrap</li>
             <li>Responsive Web Design</li>
@@ -47,9 +49,9 @@ function App() {
         </div>
 
         <div className="smalldivs">
-          <h2>Education</h2>
+          <h2 className="h4 text-white">Education</h2>
           <hr />
-          <ul>
+          <ul className="list-unstyled">
             <li>Vidhyaa Vikas Matriculation Higher Secondary School</li>
             <li>Periyar Maniyammai Institute of Science and Technology</li>
             <li>B.Tech in Mechanical Engineering</li>
@@ -58,9 +60,9 @@ function App() {
         </div>
 
         <div className="smalldivs">
-          <h2>Hobbies</h2>
+          <h2 className="h4 text-white">Hobbies</h2>
           <hr />
-          <ul>
+          <ul className="list-unstyled">
             <li>Coding & building mini web projects</li>
             <li>Exploring new tech trends</li>
             <li>Listening to music & podcasts</li>
@@ -74,4 +76,3 @@ function App() {
 }
 
 export default App;
-

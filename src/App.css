@@ -7,15 +7,16 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #2e2e2e, #4f4f4f);
-  color: #333;
+  background-image: url('/public/images/background.webp');
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
 }
-
 
 /* Main Container */
 .maindiv {
   display: flex;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 30px;
   gap: 40px;
@@ -29,23 +30,20 @@ body {
   width: 670px;
   height: calc(100vh - 60px);
   overflow-y: auto;
-  background: linear-gradient(to right, #8B0000, #B22222);
+  background-image: url('/public/images/dragon.webp');
+  background-size: cover;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   z-index: 10;
-
-  /* Hover Transition */
-  transition: background-color 0.4s ease, transform 0.3s ease;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-/* Hover Effect */
 .leftdiv:hover {
-  background: linear-gradient(to right, #8B0000, #B22222); /* Light blue on hover */
-  transform: scale(1.03); /* Slight zoom */
+  transform: scale(1.03);
 }
 
-/* Scrollbar for Left */
 .leftdiv::-webkit-scrollbar {
   width: 6px;
 }
@@ -57,9 +55,9 @@ body {
   background: transparent;
 }
 
-/* Left Text Styling */
+/* Text Styling */
 .name {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   color: #fbfbfb;
   font-weight: bold;
   margin-bottom: 10px;
@@ -78,7 +76,7 @@ body {
   margin: 20px 0;
 }
 
-/* Right Content Section */
+/* Right Panel */
 .rightdiv {
   margin-left: 750px;
   flex: 1;
@@ -88,9 +86,11 @@ body {
   margin-bottom: 70px;
 }
 
-/* Ball Style for smalldivs */
+/* Circular Cards */
 .smalldivs {
-  background: linear-gradient(to right, #8B0000, #B22222);
+  background-image: url('/public/images/moons.webp');
+  background-size: 700px;
+  background-position: center;
   width: 430px;
   height: 430px;
   border-radius: 50%;
@@ -108,13 +108,11 @@ body {
   margin-bottom: 60px;
 }
 
-/* Hover Effect for Balls */
 .smalldivs:hover {
   transform: perspective(200px) rotateX(0deg) rotateY(0deg) scale(1.05);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
 }
 
-/* Ball Title */
 .smalldivs h2 {
   font-size: 1.5rem;
   color: #fff;
