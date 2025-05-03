@@ -8,6 +8,7 @@ function App() {
     <div className="maindiv container-fluid">
       <nav>
         <div className="leftdiv shadow-lg">
+      
           <h1 className="name display-4 text-white">R VIGNESH</h1>
           <hr />
           <p className="text-light">
@@ -52,10 +53,10 @@ function App() {
           <h2 className="h4 text-white">Education</h2>
           <hr />
           <ul className="list-unstyled">
-            <li>Vidhyaa Vikas Matriculation Higher Secondary School</li>
-            <li>Periyar Maniyammai Institute of Science and Technology</li>
+            <li>Vidhyaa Vikas.Matric.Hr.Sec.School</li>
+            <li>Periyar Maniyammai Institute (PMIST)</li>
             <li>B.Tech in Mechanical Engineering</li>
-            <li>Frontend Development Courses (Online - Ongoing)</li>
+            <li>Frontend Development Courses </li>
           </ul>
         </div>
 
@@ -66,7 +67,7 @@ function App() {
             <li>Coding & building mini web projects</li>
             <li>Exploring new tech trends</li>
             <li>Listening to music & podcasts</li>
-            <li>Gaming & watching tech YouTube channels</li>
+            <li>Watching Gaming YouTube channels</li>
             <li>Sketching and digital design</li>
           </ul>
         </div>

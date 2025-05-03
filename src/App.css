@@ -44,7 +44,7 @@ body {
   transform: scale(1.03);
 }
 
-.leftdiv::-webkit-scrollbar {
+/*.leftdiv::-webkit-scrollbar {
   width: 6px;
 }
 .leftdiv::-webkit-scrollbar-thumb {
@@ -53,7 +53,7 @@ body {
 }
 .leftdiv::-webkit-scrollbar-track {
   background: transparent;
-}
+}*/
 
 /* Text Styling */
 .name {
@@ -98,7 +98,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 0px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transform: perspective(200px) rotateX(15deg) rotateY(10deg);
   transition: all 0.3s ease;
@@ -114,9 +114,9 @@ body {
 }
 
 .smalldivs h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   font-weight: bold;
 }
 
@@ -134,9 +134,10 @@ body {
 .smalldivs li {
   position: relative;
   padding-left: 20px;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
+  margin-bottom: 5px;
+ font-size: 0.8rem;
   color: #fff;
+  font-weight: bold;
 }
 
 .smalldivs li::before {
@@ -144,7 +145,7 @@ body {
   position: absolute;
   left: 0;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 /* Responsive Design */
@@ -174,3 +175,4 @@ body {
     height: 280px;
   }
 }
+
