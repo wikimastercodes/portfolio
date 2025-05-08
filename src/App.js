@@ -32,8 +32,7 @@ function App() {
           <ul className="list-unstyled">
             <li>Name: R Vignesh</li>
             <li>Location: Thanjavur, India</li>
-            <li>Email: rcva1997@gmail.com</li>
-            <li>Phone: +91 7904518945</li>
+            <li>Email: wikimaster1997@gmail.com</li>
           </ul>
         </div>
 
