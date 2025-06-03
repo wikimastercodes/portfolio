@@ -5,32 +5,32 @@
   box-sizing: border-box;
 }
 
-body {
+/*body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('/public/images/background.webp');
   background-size: auto;
   background-position: center;
   background-repeat: repeat;
-}
+}*/
 
 /* Main Container */
 .maindiv {
   display: flex;
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 30px;
   gap: 40px;
 }
 
 /* Left Panel - Fixed */
-.leftdiv {
+/*.leftdiv {
   position: fixed;
   top: 30px;
   left: 30px;
   width: 670px;
   height: calc(100vh - 60px);
   overflow-y: auto;
-  background-image: url('/public/images/dragon.webp');
+ background-image: url('/public/images/dragon.webp');
   background-size: cover;
   padding: 30px;
   border-radius: 15px;
@@ -38,11 +38,11 @@ body {
   z-index: 10;
   cursor: pointer;
   transition: transform 0.3s ease;
-}
-
+}*/
 .leftdiv:hover {
   transform: scale(1.03);
 }
+
 
 /*.leftdiv::-webkit-scrollbar {
   width: 6px;
@@ -88,7 +88,6 @@ body {
 
 /* Circular Cards */
 .smalldivs {
-  background-image: url('/public/images/moons.webp');
   background-size: 700px;
   background-position: center;
   width: 430px;
