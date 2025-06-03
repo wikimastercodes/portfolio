@@ -5,13 +5,12 @@
   box-sizing: border-box;
 }
 
-/*body {
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('/public/images/background.webp');
   background-size: auto;
   background-position: center;
   background-repeat: repeat;
-}*/
+}
 
 /* Main Container */
 .maindiv {
@@ -23,14 +22,13 @@
 }
 
 /* Left Panel - Fixed */
-/*.leftdiv {
+.leftdiv {
   position: fixed;
   top: 30px;
   left: 30px;
   width: 670px;
   height: calc(100vh - 60px);
   overflow-y: auto;
- background-image: url('/public/images/dragon.webp');
   background-size: cover;
   padding: 30px;
   border-radius: 15px;
@@ -38,7 +36,7 @@
   z-index: 10;
   cursor: pointer;
   transition: transform 0.3s ease;
-}*/
+}
 .leftdiv:hover {
   transform: scale(1.03);
 }

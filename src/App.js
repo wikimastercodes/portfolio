@@ -9,28 +9,11 @@ import backgroundImage from './assets/background.webp';
 function App() {
   return (
     <div className="maindiv container-fluid"  style={{
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: 'auto',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'repeat',
-    minHeight: '100vh',
   }}>
       <nav>
         <div className="leftdiv shadow-lg" style={{
-    position: 'fixed',
-    top: '30px',
-    left: '30px',
-    width: '670px',
-    height: 'calc(100vh - 60px)',
     backgroundImage: `url(${dragonImage})`,
-    backgroundSize: 'cover',
-    padding: '30px',
-    borderRadius: '15px',
-    boxShadow: '0 10px 30px rgba(0, 0, 0, 0.3)',
-    zIndex: 10,
-    cursor: 'pointer',
-    transition: 'transform 0.3s ease',
   }}>
           <h1 className="name display-4 text-white">R VIGNESH</h1>
           <hr />
