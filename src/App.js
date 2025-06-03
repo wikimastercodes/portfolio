@@ -32,21 +32,7 @@ function App() {
 
       <div className="rightdiv d-flex flex-column align-items-center gap-4">
         <div className="smalldivs" style={{
-    backgroundImage: `url(${moonImage})`,backgroundSize: '700px',
-    backgroundPosition: 'center',
-    width: '430px',
-    height: '430px',
-    borderRadius: '50%',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '0px',
-    
-    cursor: 'pointer',
-    textAlign: 'center',
-    overflow: 'hidden',
-    marginBottom: '60px',
+    backgroundImage: `url(${moonImage})`,
   }}>
           <h2 className="h4 text-white">Personal Details</h2>
           <hr />
